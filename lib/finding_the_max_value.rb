@@ -1,9 +1,8 @@
 def find_max_value(array)
   count = 0
   found_max_value = nil
-  array.sort
   while count < array.length do
-    if array[count] == max_value
+    if array[count] == 
       return count
     end
     count += 1
