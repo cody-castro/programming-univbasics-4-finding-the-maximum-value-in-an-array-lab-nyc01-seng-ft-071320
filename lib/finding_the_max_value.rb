@@ -1,6 +1,5 @@
 def find_max_value(array)
   count = 0
-  found_max_value = nil
   while count < array.length do
     if array[count] == array.max
       return count
@@ -8,6 +7,13 @@ def find_max_value(array)
     count += 1
   end
 end
+
+
+# scale = [2,3,4,5]
+#   scale_2 = [6,5,4,3]
+#   hill = [1,2,3,4,5,4,3,2,1]
+#   valley = [5,4,3,2,1,0,1,2,3,4,5]
+#   zig_zag = [500,4,1000,5,250]
 
 # count = 0
 #   found_value_index = nil
@@ -17,3 +23,4 @@ end
 #     end
 #     count += 1
 #   end
+
